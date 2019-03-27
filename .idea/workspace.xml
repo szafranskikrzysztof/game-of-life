@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b2566b-5034-49f8-8065-300369c065e9" name="Default Changelist" comment="Cleaning code in all class. &quot;Game over&quot; after player death implemented">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Antilope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Turtle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/plants/Belladonna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/plants/Clover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/plants/Grass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Organizmy/plants/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LifeGame/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Organizm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Rosliny/Guarana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Rosliny/Mlecz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Rosliny/Roslina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Rosliny/Trawa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Rosliny/WilczeJagody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Antylopa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Czlowiek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Lis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Owca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Wilk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Zolw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/Organizmy/Zwierzeta/Zwierze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LifeGame/com/company/World/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LifeGame/com/company/World/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Organizm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Organizmy/Organism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Rosliny/Guarana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Organizmy/plants/Guarana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Rosliny/Mlecz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Rosliny/Roslina.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Rosliny/Trawa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Rosliny/WilczeJagody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Antylopa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Czlowiek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Lis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Owca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Wilk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Zolw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Organizmy/Zwierzeta/Zwierze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Organizmy/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/World/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/world/World.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/Organism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+            <state relative-caret-position="127">
+              <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4367#4368#0" expanded="true" />
@@ -93,7 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Antilope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,6 +86,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Clover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/world/World.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -141,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="282">
               <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,18 +128,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
               <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/kkk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -333,7 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553722496170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553722733166" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -412,6 +370,14 @@
       <option name="presentableId" value="Default" />
       <updated>1547665941256</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cleaning code in all class. &quot;Game over&quot; after player death implemented">
+      <created>1553722554448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553722554448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -425,7 +391,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -435,7 +400,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.34560907" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.29320112" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.22237961" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.3101983" />
@@ -563,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Clover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Guarana.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -584,13 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Grass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -639,10 +590,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Fox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Antilope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Grass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/plants/Clover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/Organism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+        <state relative-caret-position="127">
+          <caret line="95" column="42" lean-forward="true" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4367#4368#0" expanded="true" />
@@ -657,45 +662,6 @@
             <element signature="e#4681#4682#0" expanded="true" />
             <element signature="e#4722#4723#0" expanded="true" />
             <element signature="e#4760#4761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Antilope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Fox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Organizmy/animals/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
