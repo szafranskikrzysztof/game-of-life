@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/builtins/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/builtins/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/demo/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/reader/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/reader/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/remote-ssh/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/remote-telnet/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/style/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/style/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal-jansi/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal-jansi/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal-jna/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal-jna/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/../jline3-master.zip!/jline3-master/terminal/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
