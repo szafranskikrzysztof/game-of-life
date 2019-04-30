@@ -2,8 +2,6 @@ package com.krzsz.organisms.animals;
 
 import com.krzsz.organisms.Organism;
 import com.krzsz.world.World;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class HumanTest {
 
@@ -16,7 +14,7 @@ public class HumanTest {
     Human h2 = new Human(Bordercoord, w1);
 
 
-    @Test
+    /*@Test
     public void WhenWPressedHumanYCoordinateDecreasesbyOne() {
         Assert.assertEquals(1, h1.chooseTarget("w")[0]);
         Assert.assertEquals(0, h1.chooseTarget("w")[1]);
@@ -33,6 +31,12 @@ public class HumanTest {
         Assert.assertEquals(null, h2.chooseTarget("W"));
     }
 
+    @Test
+    public void ChooseTargetChangesFlagIsCommandCorrectToFalsIfHumanTriesToGoNorthFromTheMap(){
+        h2.setIsCommandCorrect(true);
+        h2.chooseTarget("w");
+        Assert.assertFalse(h2.IsCommandCorrect());}
+*/
 
 
 }
