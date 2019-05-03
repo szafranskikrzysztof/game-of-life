@@ -1,6 +1,7 @@
 package com.krzsz.organisms.animals;
 
 import com.krzsz.organisms.Organism;
+import com.krzsz.util.Utils;
 import com.krzsz.world.World;
 
 import java.util.Random;
@@ -16,8 +17,7 @@ public class Antilope extends Animal {
 
     @Override
     public void collision(Organism attacker) {
-        if (actionSucceed(100)) {
-            // todo check why I use clone here
+        if (Utils.actionSucceed(100)) {
             int[] oldCoord = this.coordinate.clone();
             int[] escapeCoord = randomFreeCloseCoordinate();
             if (escapeCoord != null) {

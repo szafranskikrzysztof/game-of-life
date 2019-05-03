@@ -1,6 +1,7 @@
 package com.krzsz.organisms;
 
 import com.krzsz.organisms.animals.Human;
+import com.krzsz.powers.Immortality;
 import com.krzsz.world.World;
 
 import java.time.LocalDateTime;
@@ -20,11 +21,7 @@ public abstract class Organism implements java.lang.Comparable<Organism>, Clonea
         return birthDate;
     }
 
-    protected boolean actionSucceed(int percentOfProbability) {
-        Random rand = new Random();
-        int test = rand.nextInt(101);
-        return test < percentOfProbability;
-    }
+
 
     public Organism(int[] lokalizacja, World world) {
         this.coordinate = lokalizacja;
@@ -36,8 +33,8 @@ public abstract class Organism implements java.lang.Comparable<Organism>, Clonea
     public abstract void action();
 
     public void collision(Organism attacker) {
-        if (this.strenght > attacker.getStrenght() ||
-                (this.strenght == attacker.getStrenght()
+        if (this.getStrenght() > attacker.getStrenght() ||
+                (this.getStrenght() == attacker.getStrenght()
                         && this.getBirthDate().isBefore(attacker.getBirthDate()))) {
             this.kill(attacker, false);
         } else {
@@ -49,7 +46,7 @@ public abstract class Organism implements java.lang.Comparable<Organism>, Clonea
 
     public void kill(Organism loser, Boolean takeLoserPlace) {
 
-        if (loser instanceof Human && Human.getImmortalityCounter() > 6) {
+        if (loser instanceof Human && Immortality.IMMORTALITY_COUNTER > 6) {
             System.out.println("Human is immortal now, so can't be killed");
             return;
         }

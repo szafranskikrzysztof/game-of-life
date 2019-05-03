@@ -6,7 +6,7 @@ public class Sheep extends Animal {
 
     public Sheep(int[] lokalizacja, World world) {
         super(lokalizacja, world);
-        strenght = 4;
+        strenght = 3;
         initiative = 4;
         symbol = 'S';
     }

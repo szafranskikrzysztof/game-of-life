@@ -7,12 +7,12 @@ import com.krzsz.organisms.plants.Clover;
 import com.krzsz.organisms.plants.Grass;
 import com.krzsz.organisms.plants.UltraGuarana;
 import com.krzsz.util.PropertiesUtils;
+import com.krzsz.util.Utils;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 
@@ -87,14 +87,13 @@ public class World {
     }
 
     public void StartNewTurn() throws InterruptedException {
-
         for (Organism organism : orderOfMoves()) {
             if (!getIsHumanAlive()) {
                 return;
             }
             if (organism != null && organism.getCoordinate()[0]>=0) {
                 organism.action();
-                stopFor2Seconds();
+                Utils.delayBetweenAImoves(PropertiesUtils.INSTANCE.getPropertyIntValue("util.delayBetweenAImoves"));
                 printWorld();
             }
         }
@@ -123,18 +122,12 @@ public class World {
         return new int[]{x, y};
     }
 
-     static List<Organism> orderOfMoves() {
+     private static List<Organism> orderOfMoves() {
              return Arrays.stream(gameBoard)
                 .flatMap(Arrays::stream)
                 .filter(Objects::nonNull)
                 .sorted()
                 .collect(Collectors.toList());
-    }
-
-    private void stopFor2Seconds() throws InterruptedException {
-        TimeUnit unit = TimeUnit.SECONDS;
-        long delay = 1L;
-        unit.sleep(delay);
     }
 
     /**

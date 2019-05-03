@@ -8,7 +8,7 @@ public class Fox extends Animal {
 
     public Fox(int[] coordinate, World world) {
         super(coordinate, world);
-        strenght = 3;
+        strenght = 4;
         initiative = 7;
         symbol = 'F';
     }

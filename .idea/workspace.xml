@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2b2566b-5034-49f8-8065-300369c065e9" name="Default Changelist" comment="Bug fixed - spreading plants now get correct coordinates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Belladonna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Clover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Grass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/UltraGuarana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/util/PropertiesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/krzsz/organisms/OrganismTest.java" afterDir="false" />
+    <list default="true" id="f2b2566b-5034-49f8-8065-300369c065e9" name="Default Changelist" comment="New feature - new powers for human added&#10;Belladona collision message with human with immortality fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/AlzureShield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/Deforestation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/GazelleSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/Immortality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/MagicalElixir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/powers/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/util/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krzsz/organisms/animals/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzsz/organisms/animals/HumanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,22 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/kkk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="-620">
+              <caret line="146" column="69" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +47,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="85" />
+            <state relative-caret-position="73">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#World#0;class#World#0" />
@@ -81,10 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/util/PropertiesUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="81">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,15 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/MagicalElixir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-279">
-              <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6709#6710#0" expanded="true" />
-                <element signature="e#6750#6751#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,22 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4733#4734#0" expanded="true" />
-                <element signature="e#4777#4778#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="155">
+              <caret line="109" column="70" selection-start-line="109" selection-start-column="70" selection-end-line="109" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,19 +124,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/organisms/OrganismTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/GazelleSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="313">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+            <state relative-caret-position="73">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,8 +149,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -169,6 +160,8 @@
       <find>ł</find>
       <find>player</find>
       <find>playe</find>
+      <find>succ</find>
+      <find>i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,14 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Fox.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Wolf.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Sheep.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Turtle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Gazelle.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/animals/Antilope.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Organizmy/plants/Belladonna.java" />
         <option value="$PROJECT_DIR$/src/com/company/Organizmy/plants/Grass.java" />
         <option value="$PROJECT_DIR$/src/com/company/Organizmy/plants/Thistle.java" />
         <option value="$PROJECT_DIR$/src/com/company/Organizmy/plants/Clover.java" />
@@ -208,10 +193,6 @@
         <option value="$PROJECT_DIR$/src/com/company/world/World.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/Organizmy/animals/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Guarana.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Grass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Belladonna.java" />
@@ -220,19 +201,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/world/WorldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Animal.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/krzsz/organisms/animals/HumanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/util/PropertiesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/UltraGuarana.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Clover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/krzsz/organisms/OrganismTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/krzsz/kkk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/util/PropertiesUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/Immortality.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/MagicalElixir.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/Deforestation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/AlzureShield.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/powers/GazelleSpeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/powers/GazelleSpeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java" />
       </list>
     </option>
   </component>
@@ -248,15 +241,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1430" />
-    <option name="height" value="1040" />
+    <option name="x" value="167" />
+    <option name="width" value="1760" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,7 +320,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="krzsz" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="powers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LifeGame" type="b2602c69:ProjectViewProjectNode" />
@@ -381,6 +375,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="krzsz" type="462c0819:PsiDirectoryNode" />
+              <item name="organisms" type="462c0819:PsiDirectoryNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LifeGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LifeGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="krzsz" type="462c0819:PsiDirectoryNode" />
               <item name="world" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -388,11 +392,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556652444090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556886021364" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -408,7 +411,11 @@
       <recent name="com.krzsz.world" />
       <recent name="com.krzsz.organisms.animals" />
     </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.krzsz.util.Utils" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.krzsz" />
       <recent name="com.krzsz.world" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -544,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554151740227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bug fixed - spreading plants now get correct coordinates. &#10;New feature - possibility of winning the game">
+      <created>1556652496549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556652496549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,9 +604,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.37974682" visible="true" weight="0.21006711" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.37974682" visible="true" weight="0.16845638" />
       <window_info id="Structure" order="1" sideWeight="0.61538464" side_tool="true" weight="0.1704698" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -602,14 +615,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.22804533" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.22237961" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49932885" visible="true" weight="0.16855524" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.22206303" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932885" weight="0.27053824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19121814" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.004249292" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.060906515" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
@@ -620,35 +633,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.37974682" visible="true" weight="0.21006711" />
-      <window_info id="Structure" order="1" sideWeight="0.61538464" side_tool="true" weight="0.1704698" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.22804533" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.22237961" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49932885" visible="true" weight="0.9348442" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.19121814" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.004249292" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.060906515" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.0" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -695,22 +679,12 @@
     <MESSAGE value="Cleaning code in all class. &quot;Game over&quot; after player death implemented" />
     <MESSAGE value="Further code refactoring. Using streams to sort animals. &#10;Few unit test implemented" />
     <MESSAGE value="Bug fixed - spreading plants now get correct coordinates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed - spreading plants now get correct coordinates" />
+    <MESSAGE value="Bug fixed - spreading plants now get correct coordinates. &#10;New feature - possibility of winning the game" />
+    <MESSAGE value="New feature - new powers for human added&#10;Belladona collision message with human with immortality fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="New feature - new powers for human added&#10;Belladona collision message with human with immortality fixed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krzsz/Main.java</url>
-          <line>10</line>
-          <properties class="com.krzsz.Main" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Antylopa)dolly1).symbol" custom="com.company.Organizmy.animals.Antylopa" />
@@ -745,16 +719,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/superpowers/Superpower.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/superpowers/Immortality.java" />
     <entry file="file://$PROJECT_DIR$/src/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Grass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -793,70 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Wolf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/organisms/animals/HumanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Clover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/UltraGuarana.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -874,19 +775,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/kkk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="165" column="5" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6709#6710#0" expanded="true" />
-            <element signature="e#6750#6751#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/Deforestation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/AlzureShield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/Immortality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Wolf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
@@ -895,28 +836,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/util/PropertiesUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Antilope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="308">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,27 +868,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/organisms/OrganismTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/organisms/animals/HumanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="70" column="11" lean-forward="true" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4733#4734#0" expanded="true" />
-            <element signature="e#4777#4778#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Clover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/plants/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/MagicalElixir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/powers/GazelleSpeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="74" column="72" selection-start-line="74" selection-start-column="72" selection-end-line="74" selection-end-column="72" />
+        <state relative-caret-position="73">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -954,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/world/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="85" />
+        <state relative-caret-position="73">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#World#0;class#World#0" />
@@ -963,10 +942,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/kkk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="81">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/Organism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="109" column="70" selection-start-line="109" selection-start-column="70" selection-end-line="109" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="146" column="69" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Fox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/krzsz/organisms/animals/Sheep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/krzsz/world/WorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,8 +5,6 @@ import com.krzsz.organisms.animals.Human;
 import com.krzsz.organisms.animals.Wolf;
 import com.krzsz.organisms.plants.Belladonna;
 import com.krzsz.organisms.plants.Grass;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class WorldTest {
     Organism[][] o1 = new Organism[3][4];
@@ -20,9 +18,6 @@ public class WorldTest {
     Grass g1 = new Grass(coord3, w1);
     Belladonna b1 = new Belladonna(coord3, w1);
 
-@Test
-    public void orderOfMovesShouldSortOrganismByInitiative(){
-    Assert.assertEquals(w2, World.orderOfMoves().get(0));
 
 
 }
@@ -30,4 +25,3 @@ public class WorldTest {
 
 
 
-}

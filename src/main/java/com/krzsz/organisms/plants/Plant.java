@@ -1,7 +1,10 @@
 package com.krzsz.organisms.plants;
 
 import com.krzsz.organisms.Organism;
+import com.krzsz.organisms.animals.Human;
+import com.krzsz.powers.Immortality;
 import com.krzsz.util.PropertiesUtils;
+import com.krzsz.util.Utils;
 import com.krzsz.world.World;
 
 
@@ -26,15 +29,19 @@ public abstract class Plant extends Organism implements Cloneable {
         int plantY = this.coordinate[1];
         World.gameBoard[plantX][plantY] = null;
 
+        if(loser instanceof Human && Immortality.IMMORTALITY_COUNTER > 6) {
+            System.out.println("Human eats poisonous belladona, but is immortal and lives");
+            loser.moveTo(new int[]{plantX,plantY});
+            return;
+        }
 
         System.out.println("Poisonous " + winerName + " is eaten by " + loserName + " and kills it.");
     }
 
     @Override
-    // todo poprawić tworzenie się nowych organizmów. W tej chwili pojawiają się niekoniecznie na sąsiednich polach.
-    public void action() {
+        public void action() {
         int[] newCoordinate = this.randomFreeCloseCoordinate();
-        if (actionSucceed(PropertiesUtils.INSTANCE.getPropertyIntValue("plant.probabilityOfSpread")) && newCoordinate != null) {
+        if (Utils.actionSucceed(PropertiesUtils.INSTANCE.getPropertyIntValue("plant.probabilityOfSpread")) && newCoordinate != null) {
             try {
                 World.gameBoard[newCoordinate[0]][newCoordinate[1]] = (Plant) this.clone();
                 World.gameBoard[newCoordinate[0]][newCoordinate[1]].setCoordinate(newCoordinate);

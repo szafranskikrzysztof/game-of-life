@@ -13,6 +13,7 @@ public class Main {
                 "\n It's a simple console game in which you play lone human " +
                 "\n trying to survive in harsh enviroment dominated by deadly animals." +
                 "\n Each animals, plant and human are represented by one character" +
+                "\n Your goal is simple - dominate and kill everything on the map" +
 
                 "\n H - Human" +
                 "\n A - Antilope    \t G - Grass" +
@@ -55,10 +56,10 @@ public class Main {
                 if (width > 2 && height > 2) {
                     isCorrect = true;
                 } else {
-                    System.out.println("width and height must be positive integers bigger than 3!");
+                    System.out.println("width and height must be positive integers not smaller than 3!");
                 }
             } catch (java.util.InputMismatchException e) {
-                System.out.println("width and height must be positive integers bigger than 3!");
+                System.out.println("width and height must be positive integers not smaller than 3!");
                 isCorrect = false;
 
             }

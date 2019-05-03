@@ -1,6 +1,7 @@
 package com.krzsz.organisms.animals;
 
 import com.krzsz.organisms.Organism;
+import com.krzsz.util.Utils;
 import com.krzsz.world.World;
 
 public class Turtle extends Animal {
@@ -15,7 +16,7 @@ public class Turtle extends Animal {
     @Override
     // there's 75% chance that turtle won't move at all
     public void action() {
-        if (actionSucceed(25)) {
+        if (Utils.actionSucceed(25)) {
             super.action();
         } else {
             System.out.println("Turtle is too lazy to move.");
