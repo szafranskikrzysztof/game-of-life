@@ -1,11 +1,8 @@
 package com.krzsz.world;
 
 import com.krzsz.organisms.Organism;
-import com.krzsz.organisms.animals.*;
-import com.krzsz.organisms.plants.Belladonna;
-import com.krzsz.organisms.plants.Clover;
-import com.krzsz.organisms.plants.Grass;
-import com.krzsz.organisms.plants.UltraGuarana;
+import com.krzsz.organisms.OrganismFactoryImpl;
+import com.krzsz.organisms.animals.Human;
 import com.krzsz.util.PropertiesUtils;
 import com.krzsz.util.Utils;
 
@@ -14,6 +11,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Random;
 import java.util.stream.Collectors;
+
+
 
 
 public class World {
@@ -39,49 +38,15 @@ public class World {
      **/
     public static World lifeCreator(int width, int height) {
         World world = new World(new Organism[width][height]);
+        OrganismFactoryImpl organismFactory = new OrganismFactoryImpl(world);
         world.addHumanToWorld();
 
         // adds random number of animals on game board
         for (int i = 0; i < randomNumberOfAnimals(); i++) {
-
             int[] coordinate = world.randomFreeCoordinate();
             int x = coordinate[0];
             int y = coordinate[1];
-
-            Random rand = new Random();
-            int animalID = rand.nextInt(9);
-            switch (animalID) {
-                case 0:
-                    gameBoard[x][y] = new Antilope(coordinate, world);
-                    break;
-                case 1:
-                    gameBoard[x][y] = new Fox(coordinate, world);
-                    break;
-                case 2:
-                    gameBoard[x][y] = new Sheep(coordinate, world);
-                    break;
-                case 3:
-                    gameBoard[x][y] = new Wolf(coordinate, world);
-                    break;
-                case 4:
-                    gameBoard[x][y] = new Turtle(coordinate, world);
-                    break;
-
-                case 5:
-                    gameBoard[x][y] = new UltraGuarana(coordinate, world);
-                    break;
-                case 6:
-                    gameBoard[x][y] = new Clover(coordinate, world);
-                    break;
-                case 7:
-                    gameBoard[x][y] = new Grass(coordinate, world);
-                    break;
-                case 8:
-                    gameBoard[x][y] = new Belladonna(coordinate, world);
-                    break;
-                default:
-                    throw new IllegalArgumentException("Failure during world generation");
-            }
+            gameBoard[x][y] = organismFactory.create(coordinate);
         }
         return world;
     }

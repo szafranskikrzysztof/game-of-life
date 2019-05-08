@@ -4,11 +4,11 @@ import com.krzsz.world.World;
 
 import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) throws InterruptedException {
+class GamePlay {
 
 
+
+    static void startMessage() {
         System.out.println("Welcome to the Game of Life!  " +
                 "\n It's a simple console game in which you play lone human " +
                 "\n trying to survive in harsh enviroment dominated by deadly animals." +
@@ -41,7 +41,9 @@ public class Main {
                     System.out.println("well, you should type 'y' or 'n'. I'm just a simple console game \n I don't understand anything else");
             }
         }
+    }
 
+    static World createWorld() {
         boolean isCorrect = false;
         int width = 2;
         int height = 2;
@@ -61,26 +63,31 @@ public class Main {
             } catch (java.util.InputMismatchException e) {
                 System.out.println("width and height must be positive integers not smaller than 3!");
                 isCorrect = false;
-
             }
-
         }
-
         World GameWorld = World.lifeCreator(width, height);
         System.out.println("World was generated. Thats how it looks now:");
         GameWorld.printWorld();
+        return GameWorld;
+    }
 
-
-        while (World.getIsHumanAlive() && World.getNumberOfLivingCreatures()>1) {
-            GameWorld.StartNewTurn();
+    static void turnStarter(World gameWorld) {
+        while (World.getIsHumanAlive() && World.getNumberOfLivingCreatures() > 1) {
+            try {
+                gameWorld.StartNewTurn();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+    }
 
+    static void endMessage(World gameWorld) {
         if (World.getIsHumanAlive()) {
             System.out.println("Game over. You won!");
         } else {
             System.out.println("You lost!");
         }
-        GameWorld.printWorld();
+        gameWorld.printWorld();
 
     }
 

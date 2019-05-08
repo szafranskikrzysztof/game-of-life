@@ -22,7 +22,7 @@ public class PropertiesUtils {
     }
 
 
-    public String getPropertyStringValue(String key) {
+    private String getPropertyStringValue(String key) {
         Object obj = System.getProperties().get(key);
         return (String) obj;
     }

@@ -45,7 +45,6 @@ public abstract class Organism implements java.lang.Comparable<Organism>, Clonea
     }
 
     public void kill(Organism loser, Boolean takeLoserPlace) {
-
         if (loser instanceof Human && Immortality.IMMORTALITY_COUNTER > 6) {
             System.out.println("Human is immortal now, so can't be killed");
             return;
